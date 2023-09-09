@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lugrasimo&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>profile</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="flex-contain">
+            <div class="box img-box">
+                <img data-testid="slackDisplayImage" class="" src="/Saved Pictures/IMG_5107.jpg" alt="">
+            </div>
+            <div class="box wrapper-content">
+                <div class="content">
+                    <h3 data-testid="slackUserName">Name: <span>Badmus Hameed</span></h3>
+                    <h3 data-testid="myTrack">track: <span>Frontend</span></h3>
+                    <h3 data-testid=“githubURL”>Github repo: <span><a target="_blank" href="https://github.com/Badmatrix" title="click to go github">link to GitHub</a></span></h3>
+                </div>
+                <div class="">
+                    <div class="dates">
+                        <h3 id="date" class=""  data-testid="currentUTCTime"> Date: <span></span></h3>
+                        <h3 data-testid="currentDayOfTheWeek" id="day" class=""></h3>
+                    </div>
+            
+                    <h3 id="utc" class="">UTC: <span></span></h3>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
