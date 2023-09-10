@@ -1,4 +1,4 @@
-const timeStamp = document.querySelector('#utc')
+// const timeStamp = document.querySelector('#utc')
 const date = document.querySelector('#date')
 const days = document.querySelector('#day')
 const mili = document.querySelector('#mil')
@@ -15,11 +15,12 @@ const timer = () => {
   const hour = ('0' + time.getHours()).slice(-2)
   const minute = ('0' + time.getMinutes()).slice(-2)
   const secs = ('0' + time.getSeconds()).slice(-2)
-  const milsecs = time.getMilliseconds()
-  timeStamp.textContent = `${hour} : ${minute} : ${secs}`
+  const milsecs = time.getTime()
+
+  // timeStamp.textContent = `${hour} : ${minute} : ${secs}`
   days.textContent = `${day}`
   date.textContent = ` ${todaysDate} - ${month} - ${year}`
-
+  mili.textContent=`${milsecs}`
 }
 // calling the function every seconds
 setInterval(() => {
