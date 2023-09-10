@@ -46,13 +46,10 @@ body{
 
 }
 .wrapper h3{
-    font-size: 15px;
+    font-size: 20px;
 }
-.wrapper h3 span{
-    font-size: 1.5em;
-    margin: 0 15px;
-}
-.content h3 span a{
+
+.content h3 a{
     color: cornflowerblue;
     text-decoration: none;
     font-size: 0.9em;
@@ -65,5 +62,7 @@ body{
 }
 #day{
     font-size: 18px;
+    margin-left: 9px;
+    color: rgb(247, 54, 54);
 }
 
